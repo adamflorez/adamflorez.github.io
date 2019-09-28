@@ -1,0 +1,60 @@
+body{
+	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/background2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+	text-transform: uppercase;
+}
+
+.container{
+	text-align: center;
+	position: relative;
+	top: 300px;
+	color: white;
+
+}
+
+h1{
+	font-size: 4em;
+}
+
+h2{
+	font-size: 1.8em;
+	font-family: monospace;
+}
+
+span{
+	color: #4cd137;
+}
+
+button{
+	position: absolute;
+	left: 50%;
+	bottom: 100px;
+	transform: translateX(-50%);
+	border-radius: 80px;
+	padding: 10px 30px;
+	background-color: #4cd137;
+	color: white;
+	border: none;
+	transition: all 400ms;
+	font-size: 1em;
+}
+
+button a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+
+button a:hover{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+
+button:hover{
+	background-color: #44bd32;
+}
